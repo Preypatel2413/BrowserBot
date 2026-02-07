@@ -21,6 +21,9 @@ python BrowserBot/main.py
 ```
 
 ## High Level Design
+
+<img width="942" height="1262" alt="Workflow" src="https://github.com/user-attachments/assets/a2fa655d-b112-48ca-b617-9a8a4517aec4" />
+
 BrowserBot is an LLM‑assisted web research agent. The flow is:
 1. Validate the user query with an LLM to decide if web search is appropriate.
 2. Check the similarity cache for a close match and return cached response if found.
